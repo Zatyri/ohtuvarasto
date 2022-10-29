@@ -66,4 +66,4 @@ class TestVarasto(unittest.TestCase):
 
     def test_toString(self):        
         self.assertEqual(self.varasto.__str__(), "saldo = 0, vielä tilaa 10")
-    # muutos on väistämätöntä
+    
